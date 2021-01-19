@@ -3,12 +3,12 @@ body{
   width: 100%;
 }
 .left-column{
-  width:40%;
+  width:50%;
   position: relative;
   float: left;
 }
 .right-column{
-  width: 35%;
+  width: 50%;
   margin-top: 100px;
   float: left;
 }
