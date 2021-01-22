@@ -126,10 +126,6 @@
   },
   "defaultProject": "InterfaceForProject",
   "cli": {
-<<<<<<< HEAD
-    "analytics": "6aca8265-f1af-4cbf-a916-c25b2280d85c"
-=======
     "analytics": "efab33a8-2891-4fbc-8a4c-ec4bb268bed5"
->>>>>>> 20eb9023da328a1e7bdbb51838358dd1e5a0e7dc
   }
 }
