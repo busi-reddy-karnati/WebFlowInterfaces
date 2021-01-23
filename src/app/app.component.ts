@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'InterfaceForProject';
+<<<<<<< HEAD
  
+=======
+>>>>>>> 8682325ba465f5cd485dfd3a5c6a24fe88698050
 }
