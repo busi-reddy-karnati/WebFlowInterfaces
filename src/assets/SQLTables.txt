@@ -81,5 +81,6 @@ monthlycharge number,
 emispaid number
 );
 
+alter table product add productcategory varchar2(30);
 
 
