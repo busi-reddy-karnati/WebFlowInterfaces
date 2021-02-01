@@ -97,3 +97,5 @@ drop table purchase cascade constraints;
 create table purchase(
 purchaseid varchar2(20) primary key,
 purchaseddate date);
+alter table PRODUCT add numberOfProducts number;
+alter table TRANSACTIONS add transactionStatus number;
