@@ -51,20 +51,6 @@ public class Userdetail implements Serializable {
 	@OneToMany(mappedBy="userdetail")
 	private List<Transaction> transactions;
   
-  @ManyToMany
-	@JoinTable(name="PurchaseTable",
-		joinColumns= {@JoinColumn(name="UserName")},
-		inverseJoinColumns= {@JoinColumn(name="ProductPurchased")})
-	private List<Product> ProductsShopped;
-
-
-	public List<Product> getProductsShopped() {
-		return ProductsShopped;
-	}
-
-	public void setProductsShopped(List<Product> productsShopped) {
-		ProductsShopped = productsShopped;
-	}
 	public Userdetail() {
 	}
 
